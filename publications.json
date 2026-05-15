@@ -1,0 +1,51 @@
+[
+  {
+    "title": "ChaosNetBench: Benchmarking Spatio-Temporal Graph Neural Networks on Chaotic Lattice Dynamics",
+    "authors": "Moges, H. T., Skokos, Ch., and Moodley, D.",
+    "journal": "arXiv preprint, 2026",
+    "doi": "https://arxiv.org/abs/2605.09676",
+    "year": "2026"
+  },
+  {
+    "title": "How Much Does the Spatial Module Really Help? A Systematic Analysis for Long-Term MTS Forecasting",
+    "authors": "Moges, H. T. and Moodley, D.",
+    "journal": "SAICSIT 2026, CCIS (Springer)",
+    "doi": "https://github.com/htmoges/spatial-attribution-ltsf",
+    "year": "2026"
+  },
+  {
+    "title": "A Lightweight Spatio-Temporal Graph Neural Network for Long-Term Time Series Forecasting",
+    "authors": "Moges, H. T. and Moodley, D.",
+    "journal": "ICAART 2026",
+    "doi": "10.5220/0014322300004052",
+    "year": "2026"
+  },
+  {
+    "title": "On the Behavior of the Generalized Alignment Index (GALI) Method for Dissipative Systems",
+    "authors": "Moges, H. T. et al.",
+    "journal": "Int. J. Bifurcation and Chaos",
+    "doi": "https://doi.org/10.1142/S0218127425300216",
+    "year": "2025"
+  },
+  {
+    "title": "The Evolution of the Phase Space Structure along Pitchfork and Period-Doubling Bifurcations in a 3D Galactic Bar Potential",
+    "authors": "Moges, H. T. et al.",
+    "journal": "Int. J. Bifurcation and Chaos",
+    "doi": "https://doi.org/10.1142/S0218127424300131",
+    "year": "2024"
+  },
+  {
+    "title": "Kinetic vs Magnetic Chaos in Toroidal Plasmas: A Systematic Quantitative Comparison",
+    "authors": "Moges, H. T. et al.",
+    "journal": "Physics of Plasmas",
+    "doi": "https://doi.org/10.1063/5.0173642",
+    "year": "2024"
+  },
+  {
+    "title": "Anomalous Diffusion in Single and Coupled Standard Maps with Extensive Chaotic Phase Spaces",
+    "authors": "Moges, H. T., Manos, T., and Skokos, Ch.",
+    "journal": "Physica D: Nonlinear Phenomena",
+    "doi": "https://doi.org/10.1016/j.physd.2021.133120",
+    "year": "2022"
+  }
+]

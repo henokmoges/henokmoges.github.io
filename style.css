@@ -1,0 +1,386 @@
+/* =================== RESET / BASE =================== */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+a { color: #1d4ed8; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* =================== LAYOUT =================== */
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* =================== NAVBAR =================== */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-inner {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 28px;
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+#nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  margin-right: 4px;
+  color: #374151;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  padding: 4px 11px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #374151;
+  border-radius: 4px;
+}
+
+.nav-links a:hover {
+  color: #1d4ed8;
+  background: #eff6ff;
+  text-decoration: none;
+}
+
+section { scroll-margin-top: 56px; }
+
+/* =================== HERO =================== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 64px 0 48px;
+}
+
+.hero-text {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: clamp(26px, 3.8vw, 40px);
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.15;
+  color: #111827;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1d4ed8;
+  margin: 0 0 5px;
+}
+
+.hero-fields {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0 0 22px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.hero-links a {
+  display: inline-block;
+  padding: 6px 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  font-size: 13.5px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.hero-links a:hover {
+  border-color: #1d4ed8;
+  color: #1d4ed8;
+  background: #eff6ff;
+  text-decoration: none;
+}
+
+.hero-photo {
+  flex: 0 0 auto;
+}
+
+.hero-photo img {
+  width: 164px;
+  height: 164px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e5e7eb;
+  display: block;
+}
+
+/* =================== SECTIONS =================== */
+section {
+  margin-top: 52px;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #6b7280;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* =================== RESEARCH STATEMENT =================== */
+#statement {
+  max-width: 760px;
+}
+
+.mission {
+  font-size: 1.05rem;
+  color: #374151;
+  margin-bottom: 20px;
+  border-left: 3px solid #1d4ed8;
+  padding-left: 14px;
+}
+
+#statement p {
+  margin: 0 0 14px;
+  color: #374151;
+}
+
+/* =================== RESEARCH THEMES =================== */
+.themes-section {
+  margin-top: 28px;
+}
+
+.themes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.theme-pill {
+  padding: 4px 12px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #6b7280;
+  letter-spacing: 0.01em;
+}
+
+/* =================== ROLES =================== */
+.roles-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.role-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+
+.role-title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #111827;
+}
+
+.role-org {
+  font-size: 13.5px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.role-desc {
+  font-size: 12.5px;
+  color: #6b7280;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+/* =================== PROJECTS =================== */
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.project-card {
+  border-left: 3px solid #1d4ed8;
+  padding: 14px 18px;
+  background: #fafafa;
+  border-radius: 0 8px 8px 0;
+}
+
+.project-card h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.project-card p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.65;
+  color: #374151;
+}
+
+.project-links {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border: 1px solid #93c5fd;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+.project-links a:hover {
+  background: #eff6ff;
+  text-decoration: none;
+}
+
+/* =================== PUBLICATIONS =================== */
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.pub-entry {
+  padding: 10px 0;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 14.5px;
+  line-height: 1.65;
+}
+
+.pub-entry:last-child { border-bottom: none; }
+
+.pub-entry strong a { color: #1e3a8a; }
+
+.pub-authors { color: #4b5563; }
+
+.pub-entry em { color: #4b5563; }
+
+.pub-loading { color: #9ca3af; font-style: italic; }
+
+.scholar-link { font-size: 14px; color: #6b7280; margin-top: 8px; }
+
+/* =================== TALKS =================== */
+.talk-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.talk-list li {
+  padding: 9px 0;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 14.5px;
+  line-height: 1.65;
+}
+
+.talk-list li:last-child { border-bottom: none; }
+
+/* =================== SERVICE =================== */
+.service-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.service-list li {
+  margin-bottom: 7px;
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+/* =================== FOOTER =================== */
+footer {
+  text-align: center;
+  margin-top: 80px;
+  padding: 24px 0;
+  border-top: 1px solid #e5e7eb;
+  font-size: 12.5px;
+  color: #9ca3af;
+}
+
+footer a { color: #9ca3af; }
+footer a:hover { color: #374151; text-decoration: none; }
+
+/* =================== RESPONSIVE =================== */
+@media (max-width: 680px) {
+  .container { padding: 0 20px; }
+
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0 32px;
+    gap: 22px;
+  }
+
+  .hero-links { justify-content: center; }
+
+  .nav-inner { height: auto; padding: 8px 20px; flex-wrap: wrap; }
+
+  #nav-toggle { display: inline-block; }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 6px 0;
+    gap: 2px;
+  }
+
+  .navbar.open .nav-links { display: flex; }
+
+  .roles-list { grid-template-columns: 1fr; }
+
+  h1 { font-size: 26px; }
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Henok Tenaw Moges | AI for Dynamical Systems</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Henok Tenaw Moges — Research Fellow at UCT. AI for dynamical systems, scientific machine learning, spatio-temporal graph learning, nonlinear dynamics.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Henok T. Moges | Where AI Meets Dynamical Systems">
+  <meta property="og:description" content="Research on scientific machine learning, spatio-temporal graph learning, nonlinear dynamics, and benchmark design for complex dynamical systems.">
+  <meta property="og:image" content="https://htmoges.github.io/HTMoges.webp">
+  <meta property="og:url" content="https://htmoges.github.io/">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    <div class="nav-links" id="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#talks">Talks</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="about">
+  <div class="hero-text">
+    <h1>Henok Tenaw Moges</h1>
+    <p class="hero-subtitle">AI for Dynamical Systems</p>
+    <p class="hero-fields">Scientific Machine Learning &nbsp;&middot;&nbsp; Nonlinear Dynamics &nbsp;&middot;&nbsp; Spatio-Temporal Graph Learning</p>
+    <div class="hero-links">
+      <a href="https://scholar.google.com/citations?user=2XKhiYYAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+      <a href="https://github.com/HTMoges" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/henokmoges" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:henok.moges@uct.ac.za">Email</a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <picture>
+      <source srcset="HTMoges.webp" type="image/webp">
+      <img src="HTMoges.png" alt="Henok Tenaw Moges" width="160" height="160" loading="eager">
+    </picture>
+  </div>
+</header>
+
+<!-- ===== RESEARCH STATEMENT ===== -->
+<section id="statement">
+  <p class="mission">
+    <em>&ldquo;When does physical structure help learning in dynamical systems; and when does it fail?&rdquo;</em>
+  </p>
+  <p>
+    I am a Research Fellow in AI Systems at the University of Cape Town. My work sits at the intersection of machine learning, numerical analysis, and nonlinear dynamics, with a focus on how forecasting models behave under instability, coupling, and chaos.
+  </p>
+  <p>
+    A central thread of my research concerns spatio-temporal graph neural networks (STGNNs): when do spatial modules genuinely help, and how do graph-based architectures perform across different dynamical regimes? I study these questions through controlled benchmark design, architectural analysis, and principled evaluation of predictability limits in complex systems.
+  </p>
+  <p>
+    My recent work includes <a href="https://arxiv.org/abs/2605.09676" target="_blank" rel="noopener">ChaosNetBench</a>, a synthetic benchmark and evaluation framework built on a lattice of coupled standard maps with tunable chaos and coupling, designed to compare STGNN architectures across controlled dynamical regimes. My broader work spans efficient STGNN design, spatial attribution analysis, chaos indicators, and anomalous diffusion in Hamiltonian systems.
+  </p>
+</section>
+
+<!-- ===== RESEARCH THEMES ===== -->
+<section id="themes" class="themes-section">
+  <div class="themes-grid">
+    <div class="theme-pill">Spatio-Temporal Graph Learning</div>
+    <div class="theme-pill">Scientific Machine Learning</div>
+    <div class="theme-pill">Nonlinear Dynamics &amp; Chaos</div>
+    <div class="theme-pill">Controlled Benchmark Design</div>
+    <div class="theme-pill">Efficient Architecture Design</div>
+    <div class="theme-pill">Predictability in Complex Systems</div>
+  </div>
+</section>
+
+<!-- ===== CURRENT ROLES ===== -->
+<section id="roles">
+  <h2>Current Roles</h2>
+  <div class="roles-list">
+    <div class="role-card">
+      <div class="role-title">Research Fellow &mdash; AI Systems</div>
+      <div class="role-org">
+        Artificial Intelligence Research Unit (AIRU),
+        <a href="https://www.uct.ac.za" target="_blank" rel="noopener">University of Cape Town</a>
+      </div>
+    </div>
+    <div class="role-card">
+      <div class="role-title">Work Package Lead &mdash; AI &amp; Modelling</div>
+      <div class="role-org"><a href="https://www.mi-hy.eu" target="_blank" rel="noopener">Mi-Hy EU Project</a></div>
+      <div class="role-desc">AI-driven modelling, simulation, and digital twin design for microbial hydroponics systems</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SELECTED PROJECTS ===== -->
+<section id="projects">
+  <h2>Selected Projects</h2>
+  <div class="project-list">
+
+    <div class="project-card">
+      <h3><a href="https://github.com/HTMoges/ChaosNetBench" target="_blank" rel="noopener">ChaosNetBench</a></h3>
+      <p> Synthetic benchmark dataset and evaluation framework for studying STGNNs under controlled chaotic lattice dynamics.
+    Built on coupled standard maps with tunable local chaos (<em>K</em>), coupling strength (<em>&epsilon;</em>), and system size (<em>N</em>).
+    Evaluation across 13 architectures reveals regime-dependent differences between STGNN and non-graph forecasting models.</p>
+      <div class="project-links">
+        <a href="https://arxiv.org/abs/2605.09676" target="_blank" rel="noopener">arXiv</a>
+        <a href="https://huggingface.co/datasets/htmoges/chaosnetbench-cml" target="_blank" rel="noopener">Dataset</a>
+        <a href="https://github.com/HTMoges/ChaosNetBench" target="_blank" rel="noopener">Code</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3><a href="https://github.com/htmoges/spatial-attribution-ltsf" target="_blank" rel="noopener">Spatial Attribution for Long-Term Forecasting</a></h3>
+      <p>Attribution study quantifying how much spatial modules contribute to long-term multivariate time series forecasting.
+    The analysis compares spatial and non-spatial components across standard benchmarks and controlled coupling settings. Accepted at SAICSIT 2026; proceedings in press.</p>
+      <div class="project-links">
+        <a href="https://github.com/htmoges/spatial-attribution-ltsf" target="_blank" rel="noopener">Code</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3><a href="https://github.com/HTMoges/Lite-STGNN" target="_blank" rel="noopener">Lite-STGNN</a></h3>
+      <p>Lightweight STGNN for long-term multivariate forecasting.
+    The model combines decomposition-based temporal modeling with learnable sparse graph structure. Published in the ICAART 2026 proceedings.</p>
+      <div class="project-links">
+        <a href="https://doi.org/10.5220/0014322300004052" target="_blank" rel="noopener">Paper</a>
+        <a href="https://github.com/HTMoges/Lite-STGNN" target="_blank" rel="noopener">Code</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== SELECTED PUBLICATIONS ===== -->
+<section id="publications">
+  <h2>Selected Publications</h2>
+  <ul id="pub-list" class="pub-list">
+    <li class="pub-entry pub-loading">Loading&hellip;</li>
+  </ul>
+  <p class="scholar-link">Full list on <a href="https://scholar.google.com/citations?user=2XKhiYYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
+</section>
+
+<!-- ===== TALKS ===== -->
+<section id="talks">
+  <h2>Talks &amp; Presentations</h2>
+  <ul class="talk-list">
+    <li><strong>SAICSIT 2026</strong> &mdash; South Africa (upcoming) &nbsp;&middot;&nbsp; Oral: <em>How Much Does the Spatial Module Really Help? A Systematic Analysis for Long-Term MTS Forecasting</em></li>
+    <li><strong>ICAART 2026</strong> &mdash; Marbella, Spain &nbsp;&middot;&nbsp; Oral: <em>A Lightweight STGNN for Long-Term Time Series Forecasting</em> &nbsp;&middot;&nbsp; Session Chair, Explainable AI</li>
+    <li><strong>SACAIR 2025</strong> &mdash; Cape Town &nbsp;&middot;&nbsp; Poster: <em>Learning Dynamic Dependencies in Spatio-Temporal Systems for Efficient Forecasting</em></li>
+    <li><strong>UCT Postdoctoral Research Day 2025</strong> &mdash; Cape Town &nbsp;&middot;&nbsp; Poster: <em>STGNNs for Predictive Modelling and Scientific Knowledge Discovery in Dynamical Systems</em></li>
+    <li><strong>ANDSC 2024</strong> &mdash; Madrid &nbsp;&middot;&nbsp; Oral: <em>Quantification and Comparison of Magnetic and Kinetic Chaos in Toroidal Plasmas</em></li>
+    <li><strong>ICIAM 2023</strong> &mdash; Waseda University, Tokyo &nbsp;&middot;&nbsp; Talk: <em>Anomalous Diffusion in Standard Maps with Extensive Chaotic Phase Spaces</em></li>
+  </ul>
+</section>
+
+<!-- ===== ACADEMIC SERVICE ===== -->
+<section id="service">
+  <h2>Academic Service</h2>
+  <ul class="service-list">
+    <li>Program Committee Member, SACAIR, 2025&ndash;present</li>
+    <li>Reviewer, Frontiers in Astronomy and Space Sciences, 2026&ndash;present</li>
+    <li>Reviewer, Journal of Advances in Engineering and Management (JAEM), 2025&ndash;present</li>
+    <li>Session Chair, ICAART 2026 &mdash; Explainable Artificial Intelligence, Marbella, Spain</li>
+  </ul>
+</section>
+
+</div><!-- /.container -->
+
+<footer>
+  <p>
+    &copy; 2026 Henok T. Moges
+    &nbsp;&middot;&nbsp; <a href="https://orcid.org/0000-0002-7158-8265" target="_blank" rel="noopener">ORCID</a>
+    &nbsp;&middot;&nbsp; <a href="https://www.researchgate.net/profile/Henok-Moges" target="_blank" rel="noopener">ResearchGate</a>
+    &nbsp;&middot;&nbsp; <a href="mailto:henok.moges@uct.ac.za">henok.moges@uct.ac.za</a>
+  </p>
+</footer>
+
+<script>
+fetch('publications.json')
+  .then(function(r) { if (!r.ok) throw new Error('not found'); return r.json(); })
+  .then(function(data) {
+    var list = document.getElementById('pub-list');
+    list.innerHTML = '';
+    data.slice(0, 6).forEach(function(pub) {
+      var li = document.createElement('li');
+      li.className = 'pub-entry';
+      var url = pub.doi
+        ? (pub.doi.startsWith('http') ? pub.doi : 'https://doi.org/' + pub.doi)
+        : (pub.url || '');
+      var titleHtml = url
+        ? '<strong><a href="' + url + '" target="_blank" rel="noopener">' + pub.title + '</a></strong>'
+        : '<strong>' + pub.title + '</strong>';
+      li.innerHTML = titleHtml + '<br><span class="pub-authors">' + (pub.authors || '') + '</span>. <em>' + (pub.journal || pub.venue || '') + '</em>' + (pub.year ? ', ' + pub.year : '') + '.';
+      list.appendChild(li);
+    });
+  })
+  .catch(function() {
+    document.getElementById('pub-list').innerHTML =
+      '<li class="pub-entry"><strong><a href="https://arxiv.org/abs/2605.09676" target="_blank" rel="noopener">ChaosNetBench: Benchmarking Spatio-Temporal Graph Neural Networks on Chaotic Lattice Dynamics</a></strong><br><span class="pub-authors">Moges, H. T., Skokos, Ch., Moodley, D.</span>. <em>arXiv preprint</em>, 2026.</li>' +
+      '<li class="pub-entry"><strong><a href="https://doi.org/10.5220/0014322300004052" target="_blank" rel="noopener">A Lightweight Spatio-Temporal Graph Neural Network for Long-Term Time Series Forecasting</a></strong><br><span class="pub-authors">Moges, H. T., Moodley, D.</span>. <em>ICAART 2026</em>, 2026.</li>';
+  });
+
+document.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.getElementById('nav-toggle');
+  var navbar = document.getElementById('navbar');
+  if (!toggle || !navbar) return;
+  toggle.addEventListener('click', function() {
+    var open = navbar.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+  document.querySelectorAll('.nav-links a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      navbar.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+});
+</script>
+
+</body>
+</html>
